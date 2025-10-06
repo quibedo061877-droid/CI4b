@@ -11,4 +11,9 @@ class About extends BaseController
     {
         return view('about_message');
     }
+
+    public function about_us()
+    {
+        return view('about_us');
+    }
 }
